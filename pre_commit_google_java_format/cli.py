@@ -28,6 +28,7 @@ def main(argv=None):
         "java",
         "-jar",
         jar_location,
+        "--replace"
     ]
     command += filenames
 
