@@ -1,0 +1,6 @@
+- id: google-java-format
+  name: Format using google-java-format
+  description: This hook formats files according to Google's Java styleguide
+  entry: format-with-google-java-format
+  language: python
+  files: \.(json|java|xml)$
